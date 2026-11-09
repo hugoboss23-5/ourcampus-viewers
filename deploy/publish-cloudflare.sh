@@ -10,7 +10,6 @@ cp deploy/cloudflare-worker.mjs "$out/index.mjs"
 git show "$pin:release.sha256" | python3 -c '
 import json,sys
 pin=sys.argv[1]
-mkdir -p "$PWD/proof"
 paths=[line.strip().split("  site",1)[1] for line in sys.stdin]
 paths=sorted(p for p in paths if p!="/.nojekyll")
 print("export const pin = "+json.dumps(pin)+";")
