@@ -1,0 +1,41 @@
+ServerRoot "@RUN@"
+Listen 127.0.0.1:@PORT@
+ServerName 127.0.0.1
+PidFile "@RUN@/httpd.pid"
+ErrorLog "@RUN@/httpd-error.log"
+LogLevel warn
+LoadModule mpm_event_module /usr/libexec/apache2/mod_mpm_event.so
+LoadModule unixd_module /usr/libexec/apache2/mod_unixd.so
+LoadModule authz_core_module /usr/libexec/apache2/mod_authz_core.so
+LoadModule mime_module /usr/libexec/apache2/mod_mime.so
+LoadModule dir_module /usr/libexec/apache2/mod_dir.so
+LoadModule headers_module /usr/libexec/apache2/mod_headers.so
+TypesConfig /private/etc/apache2/mime.types
+AddType model/gltf-binary .glb
+AddType text/javascript .mjs
+AddType application/wasm .wasm
+AddType application/octet-stream .hdr .task
+ServerSignature Off
+ServerTokens Prod
+TraceEnable Off
+Header always set X-Content-Type-Options nosniff
+Header always set Referrer-Policy strict-origin-when-cross-origin
+DocumentRoot "@SITE@"
+<Directory />
+    AllowOverride None
+    Require all denied
+</Directory>
+<Directory "@SITE@">
+    Options None
+    AllowOverride None
+    DirectoryIndex index.html
+    DirectorySlash On
+    UseCanonicalName Off
+    Require all granted
+    <LimitExcept GET HEAD>
+        Require all denied
+    </LimitExcept>
+    <FilesMatch "^\.|\.(?:gz|py|plist|conf)$">
+        Require all denied
+    </FilesMatch>
+</Directory>
