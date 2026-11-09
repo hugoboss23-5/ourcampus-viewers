@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-04",
+  "status": "Original approved FULL paired hill composition restored as one campus hillside; supersedes singlehalf and sixpairexpansion",
+  "coordinateMapping": "nativeXYZ -> Three[x,z,-y]",
+  "hall": {
+    "asset": "performance-additions.glb",
+    "sha256": "f0f014ec40444362cefda46e9f836f6d3670075a212c1d4fd5d9dde4d409c8a7",
+    "sourceSHA256": "bb0dc85b0ac73b1028823391a8c7dd7fd1c7e1c7b5bdc6975d3a3ddf2b9e4bd1",
+    "sceneRoots": 939,
+    "nativeOffset": [
+      112,
+      70,
+      0
+    ],
+    "threeTranslation": [
+      112,
+      0,
+      -70
+    ],
+    "hideMainNamePrefixes": [
+      "Flexible exhibition",
+      "Dining "
+    ],
+    "proof": "BIN bytes, all nodes/mesh/PBR resources byte-equivalent; only scene root selection changed. Retained original shell is unreferenced, not duplicated on screen."
+  },
+  "hills": {
+    "asset": "pair-in-campus-v1.glb",
+    "assetRelativeToProject": "reviews/campus-integration-20261004/geometry/pair-campus/pair-in-campus-v1.glb",
+    "sha256": "55a6e7295fd14b9037ac3fbecfae4886fa2efb3e4707edc2aac74ffdb940e1fe",
+    "nativeSHA256": "a17ed56385e95cbc7dee89c69725ecf3787dd71b9ba434d55cf53d45fb8ac211",
+    "nativeOffsets": [
+      [
+        144,
+        339.1,
+        0
+      ]
+    ],
+    "threeTranslations": [
+      [
+        144,
+        0,
+        -339.1
+      ]
+    ],
+    "instances": 1,
+    "shells": 2,
+    "shellIds": [
+      "A1",
+      "A2"
+    ],
+    "grossFootprintSfEach": 25000,
+    "scale": 1,
+    "rotationNativeZDegrees": 0,
+    "pairPlacementBoundsXY": [
+      [
+        132,
+        304.1,
+        285,
+        455
+      ]
+    ],
+    "boundsMethod": "Conservative provisionalfullpair vegetation bounds pending actualsavedexportreview; shellcore is128m wide",
+    "groundHoleLocalXY": [
+      0,
+      0,
+      128,
+      103.6
+    ],
+    "views": {
+      "arrival": {
+        "position": [
+          61.8,
+          -18,
+          1.706
+        ],
+        "target": [
+          64,
+          38,
+          3
+        ],
+        "lensMm": 30
+      },
+      "interiorA1": {
+        "position": [
+          52,
+          39,
+          0.5
+        ],
+        "target": [
+          36,
+          65,
+          1.2
+        ],
+        "lensMm": 24
+      },
+      "interiorA2": {
+        "position": [
+          76,
+          39,
+          0.5
+        ],
+        "target": [
+          92,
+          65,
+          1.2
+        ],
+        "lensMm": 24
+      }
+    },
+    "geometryEdits": "Only4oversized standalone backgroundgroundboxes removed; all original A1A2plantinstances and architecture retained",
+    "noSingleShoulderExtras": true,
+    "groundCutBoundsXY": [
+      144,
+      339.1,
+      272,
+      442.7
+    ]
+  },
+  "retainedMainProgram": "Soccer/play/stage preserved; only independently identified empty northern landscape replacement authorized",
+  "limitations": [
+    "Original paired composition with2shells, NOTsixhills",
+    "Maingroundhole mustcoveractualbelowgrade128mcore; rootowned",
+    "Treesoutsidecore needcompactrootgroundcontactpatches, nothugebaselinegroundtiles",
+    "Roofcover/structure/power/cooling unresolved",
+    "Campusplacement/clearances schematic, no parcel/code certification"
+  ]
+}

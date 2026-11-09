@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Garden Performance Hall · Design study</title>
+  <link rel="icon" href="data:,">
+  <style>
+    :root{font-family:"Avenir Next",Avenir,"Segoe UI",sans-serif;color:#e5faff;background:#05070D;font-synthesis:none;--glass:rgba(5,7,13,.78);--line:#12202E;--ink:#e5faff;--muted:rgba(127,233,255,.72);--cyan:#2FD8FF}
+    *{box-sizing:border-box}body{margin:0;overflow:hidden}button{font:inherit;touch-action:manipulation}button:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+    #viewport{position:fixed;inset:0}canvas{display:block;width:100%;height:100%;touch-action:none}
+    .heading,.control-row,.status{background:var(--glass);border:1px solid var(--line);box-shadow:0 0 18px rgba(47,216,255,.08),inset 0 0 0 1px rgba(127,233,255,.04);backdrop-filter:blur(12px) saturate(1.2);backdrop-filter:blur(12px) saturate(1.2) url(#hall-glass);border-radius:5px}
+    .heading{position:fixed;left:16px;top:16px;pointer-events:none;width:max-content;max-width:min(340px,calc(100vw - 32px));max-height:56px;padding:8px 12px;overflow:hidden}
+    h1{font-size:17px;font-weight:600;letter-spacing:-.025em;margin:0;line-height:21px;white-space:nowrap}
+    .view-caption{font-size:11px;font-weight:400;line-height:14px;color:var(--muted);margin:3px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .toolbar{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);max-width:calc(100vw - 24px);display:flex;flex-direction:column;align-items:center;gap:6px}
+    fieldset{border:0;margin:0;padding:0;min-width:0;max-width:100%}fieldset:disabled{opacity:.4}.control-row{display:flex;align-items:center;gap:2px;max-width:100%;padding:4px}
+    button{border:1px solid transparent;background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap;font-size:11px;font-weight:550;padding:9px 13px;border-radius:3px;transition:background .16s,color .16s,border-color .16s}button:hover{background:rgba(47,216,255,.09);color:var(--ink)}button[aria-pressed="true"]{color:var(--cyan);background:rgba(47,216,255,.12);border-color:rgba(47,216,255,.25);box-shadow:inset 0 0 12px rgba(47,216,255,.04)}button:disabled{cursor:default}.secondary button{font-size:10px;padding:8px 11px}.divider{height:15px;width:1px;background:var(--line);margin:0 3px;flex-shrink:0}
+    .status{position:fixed;right:16px;top:16px;font-family:"SFMono-Regular",Consolas,monospace;font-size:9px;font-variant-numeric:tabular-nums;letter-spacing:.035em;color:var(--muted);padding:6px 8px;pointer-events:none}.hint{position:fixed;left:18px;bottom:20px;max-width:180px;color:#7FE9FF;font-size:9px;line-height:1.7;pointer-events:none;text-shadow:0 1px 4px #05070D,0 0 9px #05070D;opacity:.7}
+    .loading{position:fixed;inset:0;display:grid;place-items:center;background:#05070Df5;z-index:5;transition:opacity .25s}.loading[hidden]{display:none}.loading-card{text-align:center;padding:24px;max-width:350px}.loading-title{font-size:18px;font-weight:550;letter-spacing:-.025em;margin:0 0 10px}.loading-detail{font-size:11px;color:var(--muted);line-height:1.7;margin:0}.loading progress{width:150px;height:3px;margin:22px 0 8px;accent-color:var(--cyan)}.retry{margin-top:18px;border:1px solid var(--line)}.error .loading-title{color:#FF8A2B}
+    @media(max-width:850px){.hint{display:none}.status{top:auto;bottom:126px;right:14px;font-size:8px}.toolbar{bottom:16px}.control-row button{padding:9px 12px}.secondary button{padding:8px 10px}}
+    @media(max-width:440px){.heading{top:12px;left:12px;max-width:calc(100vw - 24px);padding:8px 10px}h1{font-size:16px}.toolbar{max-width:calc(100vw - 16px)}.control-row{padding:3px}.control-row button{font-size:10px;padding:10px 10px}.secondary button{font-size:9px;padding:9px 8px}}
+    @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+  </style>
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/":"./vendor/addons/"}}</script>
+</head>
+<body>
+  <svg width="0" height="0" aria-hidden="true" style="position:absolute;pointer-events:none"><filter id="hall-glass"><feTurbulence type="fractalNoise" baseFrequency="0.009" numOctaves="1" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="8" xChannelSelector="R" yChannelSelector="G"/></filter></svg>
+  <main id="viewport" aria-label="Interactive Garden Performance Hall design study"></main>
+  <header class="heading" aria-label="Garden Performance Hall design study"><h1>Garden Performance Hall</h1><p id="view-caption" class="view-caption">From the audience, toward the stage</p></header>
+  <output class="status" id="performance" aria-label="Viewer performance">Loading model</output>
+  <div class="hint">Drag to look around<br>Scroll to move closer · Right-drag to pan</div>
+  <nav class="toolbar" aria-label="Explore the hall">
+    <fieldset id="view-controls" disabled><div class="control-row" aria-label="Views"><button data-view="audience" aria-pressed="true">Audience</button><button data-view="foyer" aria-pressed="false">Foyer</button><button data-view="garden" aria-pressed="false">Garden</button><button data-view="section" aria-pressed="false">Cutaway</button><button data-view="plan" aria-pressed="false">Plan</button></div></fieldset>
+    <fieldset id="scene-controls" disabled><div class="control-row secondary"><button data-light="day" aria-pressed="true">Daylight</button><button data-light="evening" aria-pressed="false">Evening</button><span class="divider" aria-hidden="true"></span><button id="chairs" aria-pressed="true">Chairs on</button><button id="doors" aria-pressed="false">Open doors</button></div></fieldset>
+  </nav>
+  <div id="loading" class="loading" role="status" aria-live="polite"><div class="loading-card"><h2 id="loading-title" class="loading-title">Entering the hall</h2><p id="loading-detail" class="loading-detail">Loading the actual design model…</p><progress id="load-progress" aria-label="Model download progress"></progress><br><button id="retry" class="retry" hidden>Try again</button></div></div>
+  <script type="module" src="./garden-hall-study.js"></script>
+</body>
+</html>

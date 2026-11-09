@@ -1,0 +1,1112 @@
+{
+  "date": "2026-10-04",
+  "status": "Independently checked doorway and approach route; concept navigation, not egress certification",
+  "coordinateSystem": "native XYZ Z up; positions at feet unless camera",
+  "eyeHeightM": 1.7,
+  "floorTopZ": -1.2,
+  "doorTags": "walk_door; group walk_open_offset_native",
+  "halls": [
+    {
+      "id": "A1",
+      "floorPolygon": [
+        [
+          18.4,
+          33.1
+        ],
+        [
+          61.6,
+          33.1
+        ],
+        [
+          61.6,
+          84.3858181818
+        ],
+        [
+          18.4,
+          84.3858181818
+        ]
+      ],
+      "frontPath": [
+        [
+          64,
+          0,
+          0
+        ],
+        [
+          64,
+          12,
+          -0.48
+        ],
+        [
+          52,
+          28,
+          -1.2
+        ],
+        [
+          51.15,
+          29.5,
+          -1.2
+        ],
+        [
+          51.15,
+          31.5,
+          -1.2
+        ],
+        [
+          52,
+          32.3,
+          -1.2
+        ],
+        [
+          52,
+          32.95,
+          -1.2
+        ],
+        [
+          52,
+          38,
+          -1.2
+        ]
+      ],
+      "rearPath": [
+        [
+          26,
+          80,
+          -1.2
+        ],
+        [
+          26,
+          84.8,
+          -1.2
+        ],
+        [
+          26,
+          95.75,
+          -1.2
+        ]
+      ],
+      "frontDoors": [
+        {
+          "tag": "A1-front-left",
+          "openOffsetNative": [
+            -1.25,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "A1-front-right",
+          "openOffsetNative": [
+            1.25,
+            0,
+            0
+          ]
+        }
+      ],
+      "rearDoor": {
+        "tag": "A1-rear",
+        "openOffsetNative": [
+          2.5,
+          0,
+          0
+        ]
+      },
+      "columns": [
+        {
+          "bounds": [
+            28.82,
+            44.82,
+            29.18,
+            45.18
+          ],
+          "height": 5.5
+        },
+        {
+          "bounds": [
+            28.82,
+            58.82,
+            29.18,
+            59.18
+          ],
+          "height": 5.5
+        },
+        {
+          "bounds": [
+            28.82,
+            72.82,
+            29.18,
+            73.18
+          ],
+          "height": 5.5
+        },
+        {
+          "bounds": [
+            39.82,
+            44.82,
+            40.18,
+            45.18
+          ],
+          "height": 5.5
+        },
+        {
+          "bounds": [
+            39.82,
+            58.82,
+            40.18,
+            59.18
+          ],
+          "height": 5.5
+        },
+        {
+          "bounds": [
+            39.82,
+            72.82,
+            40.18,
+            73.18
+          ],
+          "height": 5.5
+        },
+        {
+          "bounds": [
+            50.82,
+            44.82,
+            51.18,
+            45.18
+          ],
+          "height": 5.5
+        },
+        {
+          "bounds": [
+            50.82,
+            58.82,
+            51.18,
+            59.18
+          ],
+          "height": 5.5
+        },
+        {
+          "bounds": [
+            50.82,
+            72.82,
+            51.18,
+            73.18
+          ],
+          "height": 5.5
+        }
+      ],
+      "doors": [
+        {
+          "tag": "A1-front-left",
+          "openOffsetNative": [
+            -1.25,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "A1-front-right",
+          "openOffsetNative": [
+            1.25,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "A1-rear",
+          "openOffsetNative": [
+            2.5,
+            0,
+            0
+          ]
+        }
+      ],
+      "walkPolygons": [
+        [
+          [
+            18.4,
+            33.1
+          ],
+          [
+            61.6,
+            33.1
+          ],
+          [
+            61.6,
+            84.3858181818
+          ],
+          [
+            18.4,
+            84.3858181818
+          ]
+        ],
+        [
+          [
+            50.84,
+            28
+          ],
+          [
+            53.16,
+            28
+          ],
+          [
+            53.16,
+            38
+          ],
+          [
+            50.84,
+            38
+          ]
+        ],
+        [
+          [
+            24.84,
+            80
+          ],
+          [
+            27.16,
+            80
+          ],
+          [
+            27.16,
+            95.75
+          ],
+          [
+            24.84,
+            95.75
+          ]
+        ]
+      ],
+      "obstacles": [
+        {
+          "name": "A1_fixed_side_glazing",
+          "bounds": [
+            48.0,
+            32.91999816894531,
+            50.79999923706055,
+            33.0
+          ]
+        },
+        {
+          "name": "A1_fixed_side_glazing.001",
+          "bounds": [
+            53.20000076293945,
+            32.91999816894531,
+            56.0,
+            33.0
+          ]
+        },
+        {
+          "name": "A1_bronze_mullion",
+          "bounds": [
+            47.959999084472656,
+            32.83000183105469,
+            48.040000915527344,
+            32.939998626708984
+          ]
+        },
+        {
+          "name": "A1_bronze_mullion.001",
+          "bounds": [
+            49.560001373291016,
+            32.83000183105469,
+            49.63999938964844,
+            32.939998626708984
+          ]
+        },
+        {
+          "name": "A1_bronze_mullion.002",
+          "bounds": [
+            50.7599983215332,
+            32.83000183105469,
+            50.84000015258789,
+            32.939998626708984
+          ]
+        },
+        {
+          "name": "A1_bronze_mullion.004",
+          "bounds": [
+            53.15999984741211,
+            32.83000183105469,
+            53.2400016784668,
+            32.939998626708984
+          ]
+        },
+        {
+          "name": "A1_bronze_mullion.005",
+          "bounds": [
+            54.36000061035156,
+            32.83000183105469,
+            54.439998626708984,
+            32.939998626708984
+          ]
+        },
+        {
+          "name": "A1_bronze_mullion.006",
+          "bounds": [
+            55.959999084472656,
+            32.83000183105469,
+            56.040000915527344,
+            32.939998626708984
+          ]
+        },
+        {
+          "name": "A1_rear_entry_jamb",
+          "bounds": [
+            24.759998321533203,
+            84.82582092285156,
+            24.84000015258789,
+            84.9658203125
+          ]
+        },
+        {
+          "name": "A1_rear_entry_jamb.001",
+          "bounds": [
+            27.15999984741211,
+            84.82582092285156,
+            27.240001678466797,
+            84.9658203125
+          ]
+        },
+        {
+          "name": "A1 scale person",
+          "bounds": [
+            51.835003,
+            30.84,
+            52.164997,
+            31.164534
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "floorPolygon": [
+        [
+          66.4,
+          33.1
+        ],
+        [
+          109.6,
+          33.1
+        ],
+        [
+          109.6,
+          84.3858181818
+        ],
+        [
+          66.4,
+          84.3858181818
+        ]
+      ],
+      "frontPath": [
+        [
+          64,
+          0,
+          0
+        ],
+        [
+          64,
+          12,
+          -0.48
+        ],
+        [
+          76,
+          28,
+          -1.2
+        ],
+        [
+          75.15,
+          29,
+          -1.2
+        ],
+        [
+          75.15,
+          30.6,
+          -1.2
+        ],
+        [
+          76,
+          31.6,
+          -1.2
+        ],
+        [
+          76,
+          32.95,
+          -1.2
+        ],
+        [
+          76,
+          38,
+          -1.2
+        ]
+      ],
+      "rearPath": [
+        [
+          104,
+          80,
+          -1.2
+        ],
+        [
+          104,
+          84.8,
+          -1.2
+        ],
+        [
+          104,
+          95.75,
+          -1.2
+        ]
+      ],
+      "frontDoors": [
+        {
+          "tag": "A2-front-left",
+          "openOffsetNative": [
+            -1.25,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "A2-front-right",
+          "openOffsetNative": [
+            1.25,
+            0,
+            0
+          ]
+        }
+      ],
+      "rearDoor": {
+        "tag": "A2-rear",
+        "openOffsetNative": [
+          -2.5,
+          0,
+          0
+        ]
+      },
+      "columns": [
+        {
+          "bounds": [
+            76.82,
+            44.82,
+            77.18,
+            45.18
+          ],
+          "height": 5.5
+        },
+        {
+          "bounds": [
+            76.82,
+            58.82,
+            77.18,
+            59.18
+          ],
+          "height": 5.5
+        },
+        {
+          "bounds": [
+            76.82,
+            72.82,
+            77.18,
+            73.18
+          ],
+          "height": 5.5
+        },
+        {
+          "bounds": [
+            87.82,
+            44.82,
+            88.18,
+            45.18
+          ],
+          "height": 5.5
+        },
+        {
+          "bounds": [
+            87.82,
+            58.82,
+            88.18,
+            59.18
+          ],
+          "height": 5.5
+        },
+        {
+          "bounds": [
+            87.82,
+            72.82,
+            88.18,
+            73.18
+          ],
+          "height": 5.5
+        },
+        {
+          "bounds": [
+            98.82,
+            44.82,
+            99.18,
+            45.18
+          ],
+          "height": 5.5
+        },
+        {
+          "bounds": [
+            98.82,
+            58.82,
+            99.18,
+            59.18
+          ],
+          "height": 5.5
+        },
+        {
+          "bounds": [
+            98.82,
+            72.82,
+            99.18,
+            73.18
+          ],
+          "height": 5.5
+        }
+      ],
+      "doors": [
+        {
+          "tag": "A2-front-left",
+          "openOffsetNative": [
+            -1.25,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "A2-front-right",
+          "openOffsetNative": [
+            1.25,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "A2-rear",
+          "openOffsetNative": [
+            -2.5,
+            0,
+            0
+          ]
+        }
+      ],
+      "walkPolygons": [
+        [
+          [
+            66.4,
+            33.1
+          ],
+          [
+            109.6,
+            33.1
+          ],
+          [
+            109.6,
+            84.3858181818
+          ],
+          [
+            66.4,
+            84.3858181818
+          ]
+        ],
+        [
+          [
+            74.84,
+            28
+          ],
+          [
+            77.16,
+            28
+          ],
+          [
+            77.16,
+            38
+          ],
+          [
+            74.84,
+            38
+          ]
+        ],
+        [
+          [
+            102.84,
+            80
+          ],
+          [
+            105.16,
+            80
+          ],
+          [
+            105.16,
+            95.75
+          ],
+          [
+            102.84,
+            95.75
+          ]
+        ]
+      ],
+      "obstacles": [
+        {
+          "name": "A2_fixed_side_glazing",
+          "bounds": [
+            72.0,
+            32.91999816894531,
+            74.80000305175781,
+            33.0
+          ]
+        },
+        {
+          "name": "A2_fixed_side_glazing.001",
+          "bounds": [
+            77.19999694824219,
+            32.91999816894531,
+            80.0,
+            33.0
+          ]
+        },
+        {
+          "name": "A2_bronze_mullion",
+          "bounds": [
+            71.95999908447266,
+            32.83000183105469,
+            72.04000091552734,
+            32.939998626708984
+          ]
+        },
+        {
+          "name": "A2_bronze_mullion.001",
+          "bounds": [
+            73.55999755859375,
+            32.83000183105469,
+            73.63999938964844,
+            32.939998626708984
+          ]
+        },
+        {
+          "name": "A2_bronze_mullion.002",
+          "bounds": [
+            74.76000213623047,
+            32.83000183105469,
+            74.83999633789062,
+            32.939998626708984
+          ]
+        },
+        {
+          "name": "A2_bronze_mullion.004",
+          "bounds": [
+            77.16000366210938,
+            32.83000183105469,
+            77.23999786376953,
+            32.939998626708984
+          ]
+        },
+        {
+          "name": "A2_bronze_mullion.005",
+          "bounds": [
+            78.36000061035156,
+            32.83000183105469,
+            78.44000244140625,
+            32.939998626708984
+          ]
+        },
+        {
+          "name": "A2_bronze_mullion.006",
+          "bounds": [
+            79.95999908447266,
+            32.83000183105469,
+            80.04000091552734,
+            32.939998626708984
+          ]
+        },
+        {
+          "name": "A2_rear_entry_jamb",
+          "bounds": [
+            102.76000213623047,
+            84.82582092285156,
+            102.84000396728516,
+            84.9658203125
+          ]
+        },
+        {
+          "name": "A2_rear_entry_jamb.001",
+          "bounds": [
+            105.15999603271484,
+            84.82582092285156,
+            105.23999786376953,
+            84.9658203125
+          ]
+        },
+        {
+          "name": "A2 scale person",
+          "bounds": [
+            75.834999,
+            29.84,
+            76.165001,
+            30.164534
+          ]
+        }
+      ]
+    }
+  ],
+  "interiorPreset": {
+    "position": [
+      52,
+      39,
+      0.5
+    ],
+    "target": [
+      39,
+      66,
+      0.7
+    ],
+    "lensMm": 26
+  },
+  "rearPreset": {
+    "position": [
+      84,
+      111,
+      1.7
+    ],
+    "target": [
+      74,
+      85,
+      1.6
+    ],
+    "lensMm": 28
+  },
+  "notes": [
+    "Empty shell schematic; no equipment layout or certified egress",
+    "No benches or partitions proposed in the clear room",
+    "Front door groups slide over fixed glazing; rear groups slide clear of actual wall aperture"
+  ],
+  "nativeSHA256": "b51f5c841eb375745419c76342028d763a603894a2b8ca81677afa2537c282a6",
+  "doorGroups": [
+    {
+      "tag": "A1-front-left",
+      "name": "A1_front_left_operable",
+      "openOffsetNative": [
+        -1.25,
+        0.0,
+        0.0
+      ],
+      "childNames": [
+        "A1_closed_door_leaf",
+        "A1_door_handle",
+        "A1_handle_attachment",
+        "A1_handle_attachment.001"
+      ]
+    },
+    {
+      "tag": "A1-front-right",
+      "name": "A1_front_right_operable",
+      "openOffsetNative": [
+        1.25,
+        0.0,
+        0.0
+      ],
+      "childNames": [
+        "A1_closed_door_leaf.001",
+        "A1_door_handle.001",
+        "A1_handle_attachment.002",
+        "A1_handle_attachment.003"
+      ]
+    },
+    {
+      "tag": "A2-front-left",
+      "name": "A2_front_left_operable",
+      "openOffsetNative": [
+        -1.25,
+        0.0,
+        0.0
+      ],
+      "childNames": [
+        "A2_closed_door_leaf",
+        "A2_door_handle",
+        "A2_handle_attachment",
+        "A2_handle_attachment.001"
+      ]
+    },
+    {
+      "tag": "A2-front-right",
+      "name": "A2_front_right_operable",
+      "openOffsetNative": [
+        1.25,
+        0.0,
+        0.0
+      ],
+      "childNames": [
+        "A2_closed_door_leaf.001",
+        "A2_door_handle.001",
+        "A2_handle_attachment.002",
+        "A2_handle_attachment.003"
+      ]
+    },
+    {
+      "tag": "A1-rear",
+      "name": "A1_rear_operable",
+      "openOffsetNative": [
+        2.5,
+        0.0,
+        0.0
+      ],
+      "childNames": [
+        "A1_rear_entry_handle",
+        "A1_rear_entry_leaf"
+      ]
+    },
+    {
+      "tag": "A2-rear",
+      "name": "A2_rear_operable",
+      "openOffsetNative": [
+        -2.5,
+        0.0,
+        0.0
+      ],
+      "childNames": [
+        "A2_rear_entry_handle",
+        "A2_rear_entry_leaf"
+      ]
+    }
+  ],
+  "views": {
+    "rear": {
+      "position": [
+        64,
+        114,
+        1.7
+      ],
+      "target": [
+        64,
+        85,
+        1.8
+      ],
+      "lensMm": 18
+    },
+    "aerial": {
+      "position": [
+        155,
+        144,
+        85
+      ],
+      "target": [
+        64,
+        65,
+        2
+      ],
+      "lensMm": 40
+    },
+    "interior": {
+      "position": [
+        52,
+        39,
+        0.5
+      ],
+      "target": [
+        36,
+        65,
+        1.2
+      ],
+      "lensMm": 24
+    },
+    "arrival": {
+      "position": [
+        61.8,
+        -18,
+        1.706
+      ],
+      "target": [
+        64,
+        38,
+        3
+      ],
+      "lensMm": 30
+    }
+  },
+  "cameraOptics": {
+    "sensorWidthMm": 36.0,
+    "sensorFit": "AUTO",
+    "referenceAspect": 1.6
+  },
+  "roofCoverStudy": {
+    "roofSlabTopZ": 4.85,
+    "maximumCoverM": 4.721412,
+    "locationA1": [
+      40.14,
+      48
+    ],
+    "locationA2": [
+      87.86,
+      51
+    ],
+    "status": "Unengineered silhouette with deep modeled earth; shaped structural roof or engineered void/lightweight buildup requires subsequent design",
+    "slabThicknessM": 0.55,
+    "slabStructurallySized": false
+  },
+  "walkableCorridors": [
+    {
+      "hall": "A1",
+      "polygon": [
+        [
+          50.8,
+          28
+        ],
+        [
+          53.2,
+          28
+        ],
+        [
+          53.2,
+          38
+        ],
+        [
+          50.8,
+          38
+        ]
+      ],
+      "floorZ": -1.2
+    },
+    {
+      "hall": "A2",
+      "polygon": [
+        [
+          74.8,
+          28
+        ],
+        [
+          77.2,
+          28
+        ],
+        [
+          77.2,
+          38
+        ],
+        [
+          74.8,
+          38
+        ]
+      ],
+      "floorZ": -1.2
+    },
+    {
+      "hall": "A1",
+      "polygon": [
+        [
+          24.8,
+          80
+        ],
+        [
+          27.2,
+          80
+        ],
+        [
+          27.2,
+          95.75
+        ],
+        [
+          24.8,
+          95.75
+        ]
+      ],
+      "floorZ": -1.2
+    },
+    {
+      "hall": "A2",
+      "polygon": [
+        [
+          102.8,
+          80
+        ],
+        [
+          105.2,
+          80
+        ],
+        [
+          105.2,
+          95.75
+        ],
+        [
+          102.8,
+          95.75
+        ]
+      ],
+      "floorZ": -1.2
+    }
+  ],
+  "savedPassageProbes": [
+    {
+      "opening": "A1-front",
+      "heightZ": -0.9,
+      "centerPassageClear": true,
+      "hit": null
+    },
+    {
+      "opening": "A1-front",
+      "heightZ": 0.5,
+      "centerPassageClear": true,
+      "hit": null
+    },
+    {
+      "opening": "A1-front",
+      "heightZ": 1.2,
+      "centerPassageClear": true,
+      "hit": null
+    },
+    {
+      "opening": "A2-front",
+      "heightZ": -0.9,
+      "centerPassageClear": true,
+      "hit": null
+    },
+    {
+      "opening": "A2-front",
+      "heightZ": 0.5,
+      "centerPassageClear": true,
+      "hit": null
+    },
+    {
+      "opening": "A2-front",
+      "heightZ": 1.2,
+      "centerPassageClear": true,
+      "hit": null
+    },
+    {
+      "opening": "A1-rear",
+      "heightZ": -0.9,
+      "centerPassageClear": true,
+      "hit": null
+    },
+    {
+      "opening": "A1-rear",
+      "heightZ": 0.5,
+      "centerPassageClear": true,
+      "hit": null
+    },
+    {
+      "opening": "A1-rear",
+      "heightZ": 1.2,
+      "centerPassageClear": true,
+      "hit": null
+    },
+    {
+      "opening": "A2-rear",
+      "heightZ": -0.9,
+      "centerPassageClear": true,
+      "hit": null
+    },
+    {
+      "opening": "A2-rear",
+      "heightZ": 0.5,
+      "centerPassageClear": true,
+      "hit": null
+    },
+    {
+      "opening": "A2-rear",
+      "heightZ": 1.2,
+      "centerPassageClear": true,
+      "hit": null
+    }
+  ]
+}

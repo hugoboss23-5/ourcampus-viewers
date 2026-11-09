@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-03",
+  "assets": [
+    {
+      "path": "LICENSE-Apache-2.0.txt",
+      "sha256": "61a6d6443c60466c5f0d50b97e1a382d1b539ad78197685cd1ac3067b73aaca3",
+      "bytes": 12332,
+      "existing_source": "https://github.com/google-ai-edge/mediapipe/blob/master/LICENSE"
+    },
+    {
+      "path": "hand_landmarker.task",
+      "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+      "bytes": 7819105,
+      "existing_source": "/Users/hugovillalba/projects/hive-cockpit-app/app/vendor/mediapipe/hand_landmarker.task"
+    },
+    {
+      "path": "vision_bundle.mjs",
+      "sha256": "d885630c297c0b20b1fe86096cb06291c4c8080876f27852e724f24ac603713f",
+      "bytes": 155439,
+      "existing_source": "/Users/hugovillalba/projects/hive-cockpit-app/app/vendor/mediapipe/vision_bundle.mjs"
+    },
+    {
+      "path": "wasm/vision_wasm_internal.js",
+      "sha256": "e170ee67dd4e16c1a6fcd8840a206687e5a59b22c20e4a902bc445b095454d73",
+      "bytes": 323377,
+      "existing_source": "/Users/hugovillalba/projects/hive-cockpit-app/app/vendor/mediapipe/wasm/vision_wasm_internal.js"
+    },
+    {
+      "path": "wasm/vision_wasm_internal.wasm",
+      "sha256": "8da277a733926eacd0474b8704b36742d6ec3231c57a860c5b889dff8f1df886",
+      "bytes": 11756954,
+      "existing_source": "/Users/hugovillalba/projects/hive-cockpit-app/app/vendor/mediapipe/wasm/vision_wasm_internal.wasm"
+    },
+    {
+      "path": "wasm/vision_wasm_nosimd_internal.js",
+      "sha256": "e81d715a3d42cc3373602eb2f7aff795d164934db680e32496b65dab537f9658",
+      "bytes": 323180,
+      "existing_source": "/Users/hugovillalba/projects/hive-cockpit-app/app/vendor/mediapipe/wasm/vision_wasm_nosimd_internal.js"
+    },
+    {
+      "path": "wasm/vision_wasm_nosimd_internal.wasm",
+      "sha256": "a28483cd42e74e855bf5ebdb6b40d9b66a5b49e35e95020bc97669e6822a3192",
+      "bytes": 10960242,
+      "existing_source": "/Users/hugovillalba/projects/hive-cockpit-app/app/vendor/mediapipe/wasm/vision_wasm_nosimd_internal.wasm"
+    }
+  ],
+  "code_license_source": "https://github.com/google-ai-edge/mediapipe/blob/master/LICENSE",
+  "model_note": "Existing model copied byte-for-byte from current cockpit project. No new model download or model-specific license assertion; see upstream model documentation.",
+  "browser_detection": "Local only; no camera upload. Installed cockpit control math retained; local Tasks Vision backend reused from current project."
+}
