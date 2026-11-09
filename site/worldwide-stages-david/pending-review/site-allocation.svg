@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1100" viewBox="0 0 1240 1100" role="img" aria-labelledby="title desc">
+<title id="title">Proposed six-hall land allocation</title>
+<desc id="desc">Proposed three pairs of hillside halls and service land, 11.53 acres in total, shown over the current modeled campus. Existing halls, parking, soccer and outdoor venue footprints are retained. Northern landscaping and activity areas would be affected. Location needs Hugo's decision. This is a work-in-progress allocation diagram, not a surveyed parcel or finished model.</desc>
+<defs><filter id="bloom" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3"/></filter><pattern id="allocation" width="9" height="9" patternUnits="userSpaceOnUse"><path d="M-2 2L2-2M0 9L9 0M7 11L11 7" stroke="#FF8A2B" stroke-opacity=".16" stroke-width="1"/></pattern></defs>
+<rect width="1240" height="1100" fill="#05070D"/>
+<style>text{font-family:Avenir Next,Avenir,Arial,sans-serif;fill:#e5faff} .hud{font-family:Menlo,Consolas,monospace;font-size:12px;letter-spacing:1.3px;fill:#7FE9FF}.muted{fill:#9cafb5}.label{font-size:15px;font-weight:500}.small{font-size:13px}.note{font-size:16px}.strong{font-size:24px;font-weight:600}.amber{fill:#FFC062}.cyan{fill:#2FD8FF}</style>
+<text x="64.000" y="58.000" class="hud" text-anchor="start">WORLDWIDE STAGES  /  WORK IN PROGRESS</text>
+<text x="64.000" y="104.000" class="strong" text-anchor="start">Proposed six-hall land allocation</text>
+<text x="64.000" y="137.000" class="note muted" text-anchor="start">Current campus footprints + a proposed northern reservation</text>
+<path d="M64 164H1176" stroke="#12202E"/>
+<text x="64.000" y="197.000" class="hud" text-anchor="start">CURRENT MODEL PLAN</text>
+<text x="697.000" y="197.000" class="hud" text-anchor="end">N ↑</text>
+<rect x="64.0000" y="225.0000" width="638.0000" height="659.7500" fill="#09131b" stroke="#1B7FA6" stroke-width="1.7"/>
+<rect x="240.9000" y="325.0217" width="5.8000" height="100.0217" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="240.9000" y="225.0000" width="5.8000" height="100.0217" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="78.5000" y="316.2935" width="81.2000" height="91.2935" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="159.7000" y="316.2935" width="81.2000" height="91.2935" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="78.5000" y="225.0000" width="81.2000" height="91.2935" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="159.7000" y="225.0000" width="81.2000" height="91.2935" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="613.5500" y="525.0652" width="88.4500" height="100.0217" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="613.5500" y="425.0435" width="88.4500" height="100.0217" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="525.1000" y="325.0217" width="88.4500" height="100.0217" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="613.5500" y="325.0217" width="88.4500" height="100.0217" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="525.1000" y="225.0000" width="88.4500" height="100.0217" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="613.5500" y="225.0000" width="88.4500" height="100.0217" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="246.7000" y="367.0246" width="92.8000" height="71.0123" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="339.5000" y="367.0246" width="92.8000" height="71.0123" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="432.3000" y="367.0246" width="92.8000" height="71.0123" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="246.7000" y="296.0123" width="92.8000" height="71.0123" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="339.5000" y="296.0123" width="92.8000" height="71.0123" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="432.3000" y="296.0123" width="92.8000" height="71.0123" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="246.7000" y="225.0000" width="92.8000" height="71.0123" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="339.5000" y="225.0000" width="92.8000" height="71.0123" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="432.3000" y="225.0000" width="92.8000" height="71.0123" fill="#102020" stroke="#203638" stroke-width="0.7"/>
+<rect x="78.5000" y="635.9300" width="132.5880" height="147.3200" fill="#142a38" stroke="#2FD8FF" stroke-width="1.3"/>
+<text x="144.794" y="714.590" class="label" text-anchor="middle">Sports hall</text>
+<rect x="226.4000" y="635.9300" width="132.5880" height="147.3200" fill="#142a38" stroke="#2FD8FF" stroke-width="1.3"/>
+<text x="292.694" y="714.590" class="label" text-anchor="middle">Events hall</text>
+<rect x="383.0000" y="625.0869" width="319.0000" height="259.6631" fill="#112534" stroke="#1B7FA6" stroke-width="1.2"/>
+<text x="542.500" y="759.918" class="label" text-anchor="middle">Surface parking</text>
+<rect x="64.0000" y="825.9098" width="307.4000" height="58.8402" fill="#112534" stroke="#1B7FA6" stroke-width="1.2"/>
+<text x="217.700" y="860.330" class="label" text-anchor="middle">Surface parking</text>
+<rect x="78.5000" y="407.5869" width="162.4000" height="200.1000" fill="#132a31" stroke="#2FD8FF" stroke-width="1.2"/>
+<text x="159.700" y="502.637" class="label" text-anchor="middle">Outdoor</text>
+<text x="159.700" y="522.637" class="label" text-anchor="middle">venue</text>
+<rect x="417.8000" y="452.5369" width="107.3000" height="160.9500" fill="#10352f" stroke="#7bc2ac" stroke-width="1.2"/>
+<rect x="422.1500" y="456.8869" width="98.6000" height="152.2500" fill="none" stroke="#3e7c6d" stroke-width="0.7"/>
+<text x="471.450" y="538.012" class="label" text-anchor="middle">Soccer 1</text>
+<rect x="304.7000" y="452.5369" width="107.3000" height="160.9500" fill="#10352f" stroke="#7bc2ac" stroke-width="1.2"/>
+<rect x="309.0500" y="456.8869" width="98.6000" height="152.2500" fill="none" stroke="#3e7c6d" stroke-width="0.7"/>
+<text x="358.350" y="538.012" class="label" text-anchor="middle">Soccer 2</text>
+<rect x="78.5000" y="242.9614" width="591.6000" height="157.4886" fill="#302418" stroke="#FF8A2B" stroke-width="1.3"/>
+<rect x="78.5000" y="242.9614" width="591.6000" height="157.4886" fill="url(#allocation)" stroke="none" stroke-width="0"/>
+<rect x="674.8125" y="584.6000" width="27.1875" height="40.4869" fill="#302418" stroke="#FF8A2B" stroke-width="1.3"/>
+<rect x="674.8125" y="584.6000" width="27.1875" height="40.4869" fill="url(#allocation)" stroke="none" stroke-width="0"/>
+<rect x="674.8125" y="265.6000" width="10.8750" height="324.8000" fill="#302418" stroke="#FF8A2B" stroke-width="1.3"/>
+<rect x="674.8125" y="265.6000" width="10.8750" height="324.8000" fill="url(#allocation)" stroke="none" stroke-width="0"/>
+<rect x="661.0375" y="246.3875" width="24.6500" height="24.6500" fill="#302418" stroke="#FF8A2B" stroke-width="1.3"/>
+<rect x="661.0375" y="246.3875" width="24.6500" height="24.6500" fill="url(#allocation)" stroke="none" stroke-width="0"/>
+<rect x="78.5000" y="242.9614" width="185.6000" height="153.1386" fill="none" stroke="#FFC062" stroke-width="1" stroke-dasharray="5 4"/>
+<rect x="104.6000" y="273.1606" width="63.8000" height="76.5394" fill="#453524" stroke="#FFC062" stroke-width="0.8"/>
+<rect x="174.2000" y="273.1606" width="63.8000" height="76.5394" fill="#453524" stroke="#FFC062" stroke-width="0.8"/>
+<text x="171.300" y="372.900" class="small amber" text-anchor="middle">Pair 1 · 2 halls</text>
+<rect x="281.5000" y="242.9614" width="185.6000" height="153.1386" fill="none" stroke="#FFC062" stroke-width="1" stroke-dasharray="5 4"/>
+<rect x="307.6000" y="273.1606" width="63.8000" height="76.5394" fill="#453524" stroke="#FFC062" stroke-width="0.8"/>
+<rect x="377.2000" y="273.1606" width="63.8000" height="76.5394" fill="#453524" stroke="#FFC062" stroke-width="0.8"/>
+<text x="374.300" y="372.900" class="small amber" text-anchor="middle">Pair 2 · 2 halls</text>
+<rect x="484.5000" y="242.9614" width="185.6000" height="153.1386" fill="none" stroke="#FFC062" stroke-width="1" stroke-dasharray="5 4"/>
+<rect x="510.6000" y="273.1606" width="63.8000" height="76.5394" fill="#453524" stroke="#FFC062" stroke-width="0.8"/>
+<rect x="580.2000" y="273.1606" width="63.8000" height="76.5394" fill="#453524" stroke="#FFC062" stroke-width="0.8"/>
+<text x="577.300" y="372.900" class="small amber" text-anchor="middle">Pair 3 · 2 halls</text>
+<text x="383.000" y="921.000" class="small muted" text-anchor="middle">440 m modeled site width</text>
+<path d="M64 954h145M64 949v10M136.5 949v10M209 949v10" stroke="#7FE9FF" stroke-width="1.3"/>
+<text x="64.000" y="979.000" class="small muted" text-anchor="start">0</text>
+<text x="136.500" y="979.000" class="small muted" text-anchor="middle">50</text>
+<text x="209.000" y="979.000" class="small muted" text-anchor="end">100 m</text>
+<rect x="770" y="212" width="406" height="156" rx="8" fill="#1c1813" stroke="#6a4529"/>
+<text x="792.000" y="244.000" class="hud amber" text-anchor="start">PROPOSED LAND RESERVATION</text>
+<text x="792.000" y="292.000" class="strong amber" text-anchor="start">11.53 acres</text>
+<text x="792.000" y="323.000" class="note" text-anchor="start">Includes the service allocation</text>
+<text x="792.000" y="348.000" class="small amber" text-anchor="start">Location needs Hugo’s decision</text>
+<text x="778.000" y="411.000" class="strong" text-anchor="start">What this reserves</text>
+<text x="778.000" y="443.000" class="note muted" text-anchor="start">Six halls, each 25,000 gross sq ft.</text>
+<text x="778.000" y="469.000" class="note muted" text-anchor="start">Three pairs, hills and circulation.</text>
+<text x="778.000" y="495.000" class="note muted" text-anchor="start">Space along the east for service access.</text>
+<text x="778.000" y="551.000" class="strong" text-anchor="start">What stays in place</text>
+<text x="778.000" y="583.000" class="note muted" text-anchor="start">Both main halls and surface parking.</text>
+<text x="778.000" y="609.000" class="note muted" text-anchor="start">Both current soccer fields.</text>
+<text x="778.000" y="635.000" class="note muted" text-anchor="start">The outdoor venue footprint.</text>
+<text x="778.000" y="691.000" class="strong" text-anchor="start">Existing uses are affected</text>
+<text x="778.000" y="723.000" class="note muted" text-anchor="start">The reserved land already contains</text>
+<text x="778.000" y="749.000" class="note muted" text-anchor="start">landscaping and activity areas.</text>
+<text x="778.000" y="785.000" class="note muted" text-anchor="start">Their replacement or relocation needs</text>
+<text x="778.000" y="811.000" class="note muted" text-anchor="start">a separate decision. It is not empty land.</text>
+<line x1="778" y1="858" x2="1176" y2="858" stroke="#12202E"/>
+<rect x="778" y="884" width="18" height="14" fill="#142a38" stroke="#2FD8FF"/>
+<text x="807.000" y="897.000" class="small" text-anchor="start">Current footprints retained</text>
+<rect x="778" y="916" width="18" height="14" fill="#302418" stroke="#FF8A2B"/>
+<text x="807.000" y="929.000" class="small" text-anchor="start">Proposed allocation</text>
+<path d="M64 1011H1176" stroke="#12202E"/>
+<text x="64.000" y="1040.000" class="small muted" text-anchor="start">2026-10-04 · Work-in-progress land allocation only. No campus geometry changed.</text>
+<text x="64.000" y="1065.000" class="small muted" text-anchor="start">Based on the current modeled plan; parcel boundary, service operation and final placement remain unverified.</text>
+</svg>

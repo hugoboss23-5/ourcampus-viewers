@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Hillside data halls · David’s campus</title>
+  <link rel="icon" href="data:,">
+  <style>
+    :root{font-family:"Avenir Next",Avenir,"Segoe UI",sans-serif;color:#ecf9fa;background:#05070d;--cyan:#2fd8ff;--muted:#9ec8cc;--line:#1a3541}*{box-sizing:border-box}body{margin:0;overflow:hidden}button{font:inherit;cursor:pointer}button:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}[hidden]{display:none!important}
+    #viewport{position:fixed;inset:0}canvas{display:block;width:100%;height:100%;touch-action:none}.glass{background:rgba(5,7,13,.78);border:1px solid var(--line);box-shadow:0 0 18px #2fd8ff10,inset 0 0 0 1px #7fe9ff09;backdrop-filter:blur(14px) saturate(1.2);backdrop-filter:blur(14px) saturate(1.2) url(#hill-glass);border-radius:9px}
+    header{position:fixed;left:18px;top:18px;padding:10px 14px;pointer-events:none;max-width:calc(100vw - 36px)}h1{font-size:17px;font-weight:600;line-height:21px;margin:0;letter-spacing:-.025em}header p{font-size:10px;color:var(--muted);margin:3px 0 0;line-height:14px}
+    .toolbar{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);padding:5px;max-width:calc(100vw - 24px)}fieldset{border:0;padding:0;margin:0;display:flex;gap:3px;min-width:0}fieldset:disabled{opacity:.45}button{border:1px solid transparent;color:var(--muted);background:transparent;padding:10px 15px;font-size:12px;font-weight:550;border-radius:5px;white-space:nowrap;touch-action:manipulation}button:hover{background:#2fd8ff12;color:#ecf9fa}button[aria-pressed="true"]{color:#7fe9ff;background:#2fd8ff18;border-color:#2fd8ff40}button:disabled{cursor:default}.divider{align-self:center;width:1px;height:20px;background:var(--line);margin:0 3px}
+    .hint{position:fixed;left:20px;bottom:25px;font-size:10px;line-height:1.6;color:#eef5ef;text-shadow:0 1px 5px #000;pointer-events:none}.toast{position:fixed;left:50%;bottom:87px;transform:translateX(-50%);font-size:12px;padding:10px 15px;text-align:center;max-width:calc(100vw - 32px)}
+    #loading{position:fixed;inset:0;display:grid;place-items:center;background:#05070d;z-index:4}.load-card{max-width:360px;text-align:center;padding:24px}.load-card h2{font-size:22px;letter-spacing:-.03em;font-weight:550;margin:0 0 12px}.load-card p{font-size:13px;line-height:1.7;color:var(--muted)}progress{width:180px;height:3px;accent-color:var(--cyan);margin:18px}#retry{border-color:var(--line)}
+    @media(max-width:950px){.hint{display:none}}@media(max-width:520px){header{left:12px;top:12px;padding:8px 12px}h1{font-size:16px}.toolbar{bottom:14px;padding:4px}button{padding:10px 9px;font-size:10px}.divider{margin:0}.toast{bottom:76px}}
+  </style>
+  <script type="importmap">{"imports":{"three":"../../vendor/three.module.js","three/addons/":"../../vendor/addons/"}}</script>
+</head>
+<body>
+  <svg width="0" height="0" aria-hidden="true" style="position:absolute"><filter id="hill-glass"><feTurbulence type="fractalNoise" baseFrequency=".009" numOctaves="1" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="8" xChannelSelector="R" yChannelSelector="G"/></filter></svg>
+  <main id="viewport" aria-label="Interactive three-dimensional hillside data halls"></main>
+  <header class="glass"><h1>Hillside data halls · work in progress</h1><p id="caption">Two halls · representative design study</p></header>
+  <p class="hint">Drag to explore · Scroll to move closer</p>
+  <nav class="toolbar glass" aria-label="Explore the hillside"><fieldset id="controls" disabled>
+    <button data-view="arrival" aria-pressed="true">Arrival</button><button data-view="aerial" aria-pressed="false">From above</button><button data-view="section" aria-pressed="false">Inside the hill</button><span class="divider" aria-hidden="true"></span><button id="capture">Save image</button>
+  </fieldset></nav>
+  <output id="toast" class="toast glass" role="status" hidden></output>
+  <div id="loading" role="status" aria-live="polite"><div class="load-card"><h2 id="load-title">Entering the hillside</h2><p id="load-detail">Loading the saved three-dimensional model.</p><progress id="progress" aria-label="Model loading progress"></progress><br><button id="retry" hidden>Try again</button></div></div>
+  <script type="module" src="./hillside-study.js"></script>
+</body>
+</html>

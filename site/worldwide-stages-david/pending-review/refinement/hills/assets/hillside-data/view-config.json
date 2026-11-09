@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-04",
+  "model": "./assets/hillside-data/hillside-pair.glb",
+  "browserModelSha256": "38ecb318ffde304125bbffeb113e62228bb90fd350eda91dd850b35b5b88a6f3",
+  "nativeModelSha256": "b51f5c841eb375745419c76342028d763a603894a2b8ca81677afa2537c282a6",
+  "views": {
+    "arrival": {
+      "position": [
+        61.8,
+        -18,
+        1.706
+      ],
+      "target": [
+        64,
+        38,
+        3
+      ],
+      "lensMm": 30,
+      "sensorWidthMm": 36,
+      "referenceAspect": 1.6,
+      "caption": "Two of six proposed shells \u00b7 concept design"
+    },
+    "aerial": {
+      "position": [
+        155,
+        144,
+        85
+      ],
+      "target": [
+        64,
+        65,
+        2
+      ],
+      "lensMm": 40,
+      "sensorWidthMm": 36,
+      "referenceAspect": 1.6,
+      "caption": "Ground-rooted groves and meadow roofs \u00b7 concept design"
+    },
+    "section": {
+      "position": [
+        -10,
+        8,
+        45
+      ],
+      "target": [
+        48,
+        56,
+        1.5
+      ],
+      "lensMm": 40,
+      "sensorWidthMm": 36.0,
+      "referenceAspect": 1.6,
+      "caption": "Work in progress \u00b7 open roof and interior"
+    },
+    "rear": {
+      "position": [
+        138,
+        140,
+        26
+      ],
+      "target": [
+        68,
+        96,
+        1
+      ],
+      "lensMm": 24,
+      "sensorWidthMm": 36,
+      "referenceAspect": 1.6,
+      "caption": "Rear garden and service entrances \u00b7 proposed materials"
+    },
+    "interior": {
+      "position": [
+        52,
+        39,
+        0.5
+      ],
+      "target": [
+        36,
+        65,
+        1.2
+      ],
+      "lensMm": 24,
+      "sensorWidthMm": 36,
+      "referenceAspect": 1.6,
+      "caption": "Inside the shell \u00b7 proposed structure and finishes"
+    }
+  },
+  "walkContract": "./assets/hillside-data/walk-contract.json",
+  "localLightScale": 0.01,
+  "lightingBasis": "Illustrative browser exposure normalization, not a photometric calculation",
+  "interiorLightScale": 0.003,
+  "interiorEnvironmentIntensity": 0.18
+}

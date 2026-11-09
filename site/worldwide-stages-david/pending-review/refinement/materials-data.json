@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-04",
+  "materials": [
+    {
+      "name": "Concrete shell",
+      "use": "Retaining walls, roof and foundation",
+      "detail": "Create a continuous buried enclosure with explicit joints, support and drainage.",
+      "status": "Material family proposed; structure and mix not designed.",
+      "color": "#92948e"
+    },
+    {
+      "name": "Warm pale stone",
+      "use": "Deep entrance cuts and retaining-wall faces",
+      "detail": "Give the approved entrances real texture, joints and substantial corners.",
+      "status": "Appearance proposal; stone, finish, anchors and sample unselected.",
+      "color": "#c3b89e"
+    },
+    {
+      "name": "Bronze-toned frames",
+      "use": "Entry doors, glazing and limited trim",
+      "detail": "Keep a quiet, warm edge against the stone.",
+      "status": "Finish proposal; alloy, glazing and thermal/security details unselected.",
+      "color": "#75644e"
+    },
+    {
+      "name": "Sheltered warm soffits",
+      "use": "Protected entrance recesses",
+      "detail": "Add warmth at human height without changing the hill silhouette.",
+      "status": "Timber-toned proposal; fire, moisture and maintenance review required.",
+      "color": "#886847"
+    },
+    {
+      "name": "Textured paving",
+      "use": "Arrival walks, landings and rear service interfaces",
+      "detail": "Keep the route dry, readable and continuous with deliberate joints.",
+      "status": "Finish/base proposal; wet slip, accessibility and drainage unresolved.",
+      "color": "#aeaa97"
+    },
+    {
+      "name": "Low roof meadow and ground planting",
+      "use": "Low vegetation above the roof; larger shrubs/trees in verified true ground",
+      "detail": "Keep the approved lush landform while separating roof substrate from deep soil and tree roots.",
+      "status": "Species, growing medium, installation/mature sizes and maintenance unselected.",
+      "color": "#627747"
+    }
+  ],
+  "quantities": [
+    {
+      "name": "Gross floor plates",
+      "amount": "2 \u00d7 25,000 sq ft",
+      "limit": "Two model footprints; usable area still requires an agreed definition."
+    },
+    {
+      "name": "Floor to roof underside",
+      "amount": "5.50 m (18.0 ft)",
+      "limit": "Modeled clear shell height before equipment or services; structure is schematic."
+    },
+    {
+      "name": "Ground trees",
+      "amount": "19 shown",
+      "limit": "12 added in this revision. Species, nursery sizes and root space are not yet specified."
+    },
+    {
+      "name": "Pedestrian entrance openings",
+      "amount": "4 across the pair",
+      "limit": "Two front and two rear openings; not a fire/egress design."
+    }
+  ],
+  "steps": [
+    "Keep the approved appearance as the target and show the same model from arrival, rear, aerial and section views.",
+    "Tie the model to the correct expansion parcel and collect the existing site/utility reports before commissioning missing investigations.",
+    "Design one complete representative section with structure, waterproofing, insulation, drainage, planting and service access.",
+    "Approve stone, metal, paving and soffit samples; show day-one planting separately from the intended grown-in landscape.",
+    "Issue a coordinated material/element schedule and quantity take-off with assumptions, exclusions and an exact model version. Have the design team and contractor check it before procurement."
+  ],
+  "sources": [
+    {
+      "title": "BIG, project architect \u00b7 Tirpitz Museum",
+      "url": "https://big.dk/projects/tirpitz-museum-2640"
+    },
+    {
+      "title": "ZinCo \u00b7 System Solutions for Intensive Green Roofs",
+      "url": "https://zinco-greenroof.com/sites/default/files/2024-10/Zinco_Intensive_Green_Roofs_0.pdf"
+    },
+    {
+      "title": "ZinCo \u00b7 Inspection Chamber KS 10/30",
+      "url": "https://products.zinco-greenroof.com/Zinco-Inspection-Chamber-KS-10-30-Height-10-cm/4010"
+    },
+    {
+      "title": "Sika \u00b7 Green Roofs",
+      "url": "https://www.sika.com/en/construction/roof-systems/green-roofs.html"
+    },
+    {
+      "title": "Sika USA \u00b7 Drainage Composite 3611R",
+      "url": "https://usa.sika.com/sarnafil/en/products-systems/liquid-applied-products/drainage/drainage-composite3611r.html"
+    },
+    {
+      "title": "Sika \u00b7 Solutions for Data Centers",
+      "url": "https://www.sika.com/en/solutions-for-projects/data-centers.html"
+    },
+    {
+      "title": "US Department of Energy, FEMP / NREL \u00b7 Best Practices Guide for Energy-Efficient Data Center Design, revised July 2024",
+      "url": "https://www.energy.gov/sites/default/files/2024-07/best-practice-guide-data-center-design_0.pdf"
+    },
+    {
+      "title": "Green Mountain, operator \u00b7 Mountain hall expansion at DC1-Stavanger",
+      "url": "https://greenmountain.no/mountain-hall-expansion/"
+    },
+    {
+      "title": "Green Mountain, operator \u00b7 Cooling",
+      "url": "https://greenmountain.no/data-centers/cooling/"
+    }
+  ],
+  "evidenceNote": "Primary sources read 4 October 2026. The existing campus survey dates from 2017 with a 2021 revision; the expansion parcel is not yet pinned to it. Geometry measurements are concept comparisons, not engineering approval. Current native model version begins b51f5c84. Material-face totals include concealed/back faces and are intentionally excluded from purchase quantities."
+}

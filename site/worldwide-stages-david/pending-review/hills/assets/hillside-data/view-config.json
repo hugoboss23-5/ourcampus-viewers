@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-04",
+  "model": "./assets/hillside-data/hillside-pair.glb",
+  "browserModelSha256": "bad86365493ef65193130344fbbbb56c2d919ff2dd5c3e449cb79212ad17018c",
+  "nativeModelSha256": "097b16e52eed25d676b791c306cd4ae19d05ddc95e2fb1c47b2bc4fa12e31b47",
+  "views": {
+    "arrival": {
+      "position": [
+        61.8,
+        -18,
+        1.706
+      ],
+      "target": [
+        64,
+        38,
+        3.0
+      ],
+      "lensMm": 30,
+      "sensorWidthMm": 36.0,
+      "referenceAspect": 1.6,
+      "caption": "Work in progress \u00b7 two of six proposed halls"
+    },
+    "aerial": {
+      "position": [
+        168,
+        -78,
+        96
+      ],
+      "target": [
+        64,
+        43,
+        1.5
+      ],
+      "lensMm": 40,
+      "sensorWidthMm": 36.0,
+      "referenceAspect": 1.6,
+      "caption": "Work in progress \u00b7 meadow roofs and service access"
+    },
+    "section": {
+      "position": [
+        -10,
+        8,
+        45
+      ],
+      "target": [
+        48,
+        56,
+        1.5
+      ],
+      "lensMm": 40,
+      "sensorWidthMm": 36.0,
+      "referenceAspect": 1.6,
+      "caption": "Work in progress \u00b7 open roof and interior"
+    }
+  }
+}

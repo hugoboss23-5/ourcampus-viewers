@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-04",
+  "hills": {
+    "title": "Hillside shells · rear and interior revision",
+    "subtitle": "More ground trees, planted rear borders, stone service faces and a walkthrough of both empty shells.",
+    "views": {
+      "rear": "./refinement/refined-v3-rear.png",
+      "aerial": "./refinement/refined-v3-aerial.png",
+      "interior": "./refinement/refined-v3-interior.png"
+    },
+    "model": "./refinement/hills/hillside-study.html",
+    "footer": "Actual model · two of six proposed shells. Rear landscape remains a design study; engineering and campus placement are unresolved."
+  },
+  "hall": {
+    "title": "Garden Performance Hall · interactive study",
+    "subtitle": "Low stage, movable seating, timber ceiling, garden foyer and terrace. Use the controls inside the viewer.",
+    "url": "../garden-hall-study.html",
+    "footer": "Separate design model. Seating sightlines and finish quality still need refinement before campus integration."
+  },
+  "site": {
+    "title": "Where six hillside halls could fit",
+    "subtitle": "Proposed northern land allocation: approximately 11.53 acres including service access.",
+    "url": "./site-allocation.svg",
+    "description": "The reservation replaces existing northern recreation and overflow areas. That location has not been approved.",
+    "footer": "A proposed land-allocation diagram, not six completed models or a surveyed site plan."
+  },
+  "speed": {
+    "title": "Full-detail speed experiment",
+    "subtitle": "Experimental comparison. No performance improvement has been verified yet.",
+    "description": "This experimental viewer is unavailable.",
+    "footer": "This experiment keeps the main scene detail. Actual speed and visual comparisons are still pending."
+  },
+  "remaining": {
+    "title": "Other campus changes still pending",
+    "subtitle": "These requested changes are not shown as completed in this package.",
+    "description": "The hills and performance hall are the modeled studies in this review. Earlier preparation for the broader campus still needs integration and checking.",
+    "items": [
+      "Sports layout: eight indoor pickleball courts, additional basketball and revised support areas; the revised layout is not installed in the current campus.",
+      "Landscape: replace the repeated brown grid with curved paths and useful activity areas; coordinate soccer surroundings, arrival and parking improvements.",
+      "Campus integration: place all six hillside halls, insert the performance hall, update destination labels and the tour, then check the complete visitor route.",
+      "Quality checks: test the complete model for visual clarity, movement and speed on actual computers. The existing lag has not been solved."
+    ]
+  },
+  "materials": {
+    "title": "Materials & accuracy",
+    "subtitle": "Measured model dimensions, proposed finishes and the work needed before construction.",
+    "url": "./refinement/materials.html",
+    "footer": "Concept design. Refer to coordinated drawings, physical samples and engineering before procurement."
+  }
+}
