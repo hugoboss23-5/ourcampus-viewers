@@ -3,3 +3,6 @@
 /harold/
 /*.tar.gz
 /site/worldwide-stages-david/assets/visible-revisions/option-05/*/option-05.glb
+
+/.wrangler/
+/harold.*/

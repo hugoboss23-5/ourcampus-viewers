@@ -2,6 +2,7 @@ name: Publish OurCampus viewers
 on:
   push:
     branches: [main]
+    paths: ["site/**", "release.sha256"]
   workflow_dispatch:
 permissions:
   contents: read
