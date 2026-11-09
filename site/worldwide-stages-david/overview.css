@@ -1,0 +1,17 @@
+/* Colors and quiet chrome adapted from the existing OurCampus drone preview. */
+:root{color-scheme:dark;font:16px/1.5 system-ui,sans-serif;background:#20231e;color:#f6f2e9}
+*{box-sizing:border-box}
+body{margin:0}
+a{color:inherit;text-underline-offset:.25em}
+a:focus-visible{outline:2px solid #f4da99;outline-offset:4px}
+header{max-width:76rem;margin:auto;padding:1rem clamp(1rem,5vw,3rem);display:flex;justify-content:space-between;gap:1rem;border-bottom:1px solid #474b40}
+header a{display:inline-flex;align-items:center;min-height:44px;font-size:.85rem}
+header a:first-child{font-weight:700;letter-spacing:.13em;text-decoration:none}
+main{max-width:76rem;margin:auto;padding:clamp(1.35rem,5vw,3rem) clamp(1rem,5vw,3rem) 3rem}
+.kicker{font-size:.75rem;letter-spacing:.13em;color:#e7d49a;margin:0 0 .45rem}
+h1{font:400 clamp(2.25rem,6vw,5rem)/1.04 Georgia,serif;margin:0 0 .45em;text-wrap:balance}
+figure{margin:0 0 1rem} img{display:block;width:100%;height:auto;border-radius:.2rem}figcaption{font-size:.8rem;color:#cdcabc;margin-top:.5rem}
+nav{display:grid;gap:.3rem;max-width:43rem}
+nav a{display:flex;align-items:center;justify-content:space-between;gap:1rem;text-decoration:none;padding:.6rem .8rem;min-height:48px;border-bottom:1px solid #515345}
+nav a:hover{background:#34382f}nav a.primary{background:#ebdcae;color:#20231e;font-weight:700;border-radius:.2rem}
+nav span{font-size:.77rem;text-align:right;flex-shrink:0}
